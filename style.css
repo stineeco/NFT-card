@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&family=Karla:wght@700&family=Outfit:wght@400;700&family=Phudu:wght@500&family=Poppins:wght@300;400;600&display=swap');
+
+
+body{
+   background-color: hsl(217, 54%, 11%);
+   font-family: 'Outfit', sans-serif;
+}
+
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.nft_image{
+    width: 230px;
+    position: relative;
+}
+
+.nft_container{
+   width: 220px;
+   overflow: hidden;
+   border-radius: 5px;
+   border-radius: 10px;
+   padding: 15px 26px 30px 15px;
+   background-color: hsl(216, 50%, 16%);
+}
+
+
+.nft_img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+
+
+
+.nft_overlay{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    right: -250px;
+    display: flex;
+    margin-left: 0;
+    transition:0.3s;
+    position: absolute;
+    border-radius: 5px;
+    align-items: center;
+    place-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(0, 255, 248, 0.5 );
+   
+}
+
+.nft_image:hover .nft_overlay {
+    right: 0px;
+   
+}
+
+
+h1{
+   font-size: 15px;
+   font-weight: 600;
+   padding-top: 8px;
+   color: hsl(0, 0%, 100%);
+}
+
+h1:hover{
+    opacity: 0.7;
+    color: hsl(178, 100%, 50%) ;
+}
+
+.our{
+    font-size: 13px;
+    font-weight: 300;
+    color:hsl(215, 51%, 70%) ;
+}
+
+.eth{
+   gap: 5px;
+   display: flex;
+   align-items: center;
+
+}
+
+.eth_num{
+    font-size: 10px;
+    margin-left: auto;
+    color:hsl(178, 100%, 50%);
+}
+
+.clock{
+    gap: 5px;
+    display: flex;
+    font-size: 10px;
+    margin-left: auto;
+    align-items: center;
+}
+
+.nft_rate{
+    display: flex;
+    align-items: center;
+    
+}
+
+.days{
+    color:hsl(215, 51%, 70%) ;
+}
+
+.sign_img{
+    width: 7px;
+}
+.clock_img{
+    width: 13px;
+}
+
+.line{
+    padding: 0.1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.man_img{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.little_man{
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.creation{
+    font-size: 10px;
+    color:hsl(215, 51%, 70%) ;
+}
+
+span{
+    color:white ;
+}
+
+span:hover{
+    opacity: 0.5;
+    color:hsl(178, 100%, 50%) ;
+}
+
+
+
+@media  (max-width:281px ) {
+    .attribution{
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
